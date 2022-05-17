@@ -1,0 +1,10 @@
+Analizar los resultados de la ejecución del programa para distintos ejemplos y sacar conclusiones sobre el
+desempeño de cada algoritmo de ordenación.
+
+Lo que podemos observar es que:
+* En arreglos pequeños todos tienen tiempos parecidos, sin embargo el Insertion sort hace menos comparaciones
+que los otros dos.
+
+* En arreglos ya ordenados el insertion sort tiene una ventaja marcada de tiempo y comparaciones.
+
+* En arreglos grandes y desordenados el quick sort gana en tiempo a los otros dos.

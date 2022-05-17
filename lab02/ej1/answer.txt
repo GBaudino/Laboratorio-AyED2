@@ -1,0 +1,4 @@
+Analizar los resultados del programa y responder: ¿Qué relación implementa la función goes_before()?
+
+La comparacion realizada es a partir del valor absoluto de los elementos y por eso es algo polemico
+que el array ordenado tenga el 0 antes que el -1.

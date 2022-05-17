@@ -1,0 +1,5 @@
+El archivo no compila porque nos dice que estamos redefiniendo el tipo mybool.
+Esto se da porque ya habia una declaracion previa y hacemos un import del mismo.
+
+El problema se resuelve usando la directiva del preprocesador ifndef para ver si ya
+esta definido un parametro/constante, si no lo esta, lo define.
